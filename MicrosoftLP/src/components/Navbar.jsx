@@ -1,19 +1,34 @@
 import React from 'react'
+import {BsSearch, BsCart2} from "react-icons/bs";
+import {MdKeyboardArrowDown} from "react-icons/md";
+import {BiUserCircle} from "react-icons/bi";
+import '../index.css';
 
 export default function Navbar() {
   return (
-    <div>
-      <div>
-        <h2>Microsoft</h2>
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Sign In</li>
+    <div className='h-16 w-full bg-white text-[12.6px] text-black flex items-center justify-around border-b border-gray-200'>
+      <div className='flex border-x-green-400 w-[800px] items-center'>
+        <h2 className='ml-6 mr-8 text-lg font-bold'>Microsoft</h2>
+        <ul className='flex justify-between w-[540px]'>
+            <li className="hover-underline ">Microsoft 365</li>
+            <li>Teams</li>
+            <li>Windows</li>
+            <li>Surface</li>
+            <li>Xbox</li>
+            <li>Deals</li>
+            <li>Small Business</li>
+            <li>Support</li>
         </ul>
       </div>
+      <div>
+        <div>
+            <h3>All Microsoft</h3>
+            <MdKeyboardArrowDown className="h-5 w-5 cursor-pointer"/>
+        </div>
+        <BsSearch className="h-5 w-5 cursor-pointer"/>
+        <BsCart2 className="h-5 w-5 cursor-pointer"/>
+        <BiUserCircle className="h-5 w-5 cursor-pointer"/>
+      </div>
     </div>
-  )
+  );
 }

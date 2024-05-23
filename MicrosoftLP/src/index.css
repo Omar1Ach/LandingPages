@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .hover-underline {
+        /* @apply no-underline hover:underline-offset-4 decoration-2 cursor-pointer; */
+        @apply  hover:underline hover:underline-offset-4  ;
+    }
+}
