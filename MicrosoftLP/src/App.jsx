@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import Main from './components/Main'
-
+import icons from './components/icons'
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
       <div>
         <Navbar />
         <Main />
+        <icons />
       </div>
         
     </>
