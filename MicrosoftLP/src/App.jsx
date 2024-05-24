@@ -4,6 +4,8 @@ import  Myicons  from './components/Myicons'
 import Products from './components/Products'
 import Shop from './components/Shop'
 import ProductsTwo from './components/ProductsTwo'
+import Socials from './components/Socials'
+import Footer from './components/Footer'
 function App() {
   
 
@@ -16,6 +18,8 @@ function App() {
         <Products/>
         <Shop/>
         <ProductsTwo/>
+        <Socials/>
+        <Footer/>
       </div>
         
     </>
