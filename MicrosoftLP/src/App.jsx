@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Main from './components/Main'
-import icons from './components/icons'
+import  Myicons  from './components/Myicons'
+import Products from './components/Products'
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
       <div>
         <Navbar />
         <Main />
-        <icons />
+        <Myicons/>
+        <Products/>
       </div>
         
     </>
